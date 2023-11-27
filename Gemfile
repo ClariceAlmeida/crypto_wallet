@@ -2,7 +2,6 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.0"
-
 gem 'bootstrap', '~> 5.3.2'
 gem 'dartsass-sprockets'
 gem 'jquery-rails'
@@ -55,6 +54,7 @@ gem "bootsnap", require: false
 gem 'pry-rails'
 gem "tty-spinner"
 gem 'rails-i18n', '~> 7.0.0'
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
