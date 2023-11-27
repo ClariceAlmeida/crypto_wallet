@@ -8,6 +8,7 @@ class MiningTypesController < ApplicationController
 
   # GET /mining_types/1 or /mining_types/1.json
   def show
+    @mining_types = MiningType.all
   end
 
   # GET /mining_types/new
